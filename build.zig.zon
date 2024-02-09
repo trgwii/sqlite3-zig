@@ -1,0 +1,15 @@
+.{
+    .name = "sqlite3",
+    .version = "3.45.1",
+    .dependencies = .{
+        .sqlite3 = .{
+            .url = "https://sqlite.org/2024/sqlite-autoconf-3450100.tar.gz",
+            .hash = "1220e93e5a9a2a54fbb195d65db308d4bc9f4646c2cfa4cf4f3248dad5ad344c3e56",
+        },
+    },
+    .paths = .{
+        "build.zig.zon",
+        "build.zig",
+        "README.md",
+    },
+}
